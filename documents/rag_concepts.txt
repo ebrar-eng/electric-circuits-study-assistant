@@ -1,0 +1,9 @@
+Retrieval-augmented generation grounds model responses in your own data. Instead of relying only on what a language model learned during training, RAG retrieves relevant passages from a document collection and feeds them into the model's prompt before it generates an answer.
+
+The RAG pattern has three steps: retrieve relevant information from a document set, augment the model's input prompt with that information as context, and generate an answer using the augmented prompt. This reduces hallucinations and allows answers to be grounded in and traceable to source documents.
+
+Vector similarity search finds documents that are semantically close to a query. Rather than matching exact keywords, it compares the meaning of a query against the meaning of stored documents using numerical vector representations.
+
+Embedding models convert text into numerical vectors for similarity search. Text with similar meaning produces vectors that are close together in vector space, which is what makes semantic search possible.
+
+Chat completions generate natural language responses from a prompt and context. A system message can instruct the model how to behave, for example telling it to answer only using retrieved context and to say so when it does not know the answer.

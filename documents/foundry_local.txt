@@ -1,0 +1,9 @@
+Foundry Local runs AI models directly on your device without cloud connectivity. It is an end-to-end local AI solution that provides a lightweight runtime and SDK for running large language models completely on a user's device, with a curated catalog of optimized models.
+
+No cloud account or GPU is required. Foundry Local automatically downloads and manages models, and runs inference with CPU, GPU, or NPU acceleration, so applications can deliver local, offline AI with zero network calls.
+
+The Foundry Local SDK supports Python, C#, JavaScript, and Rust. It provides a consistent development experience across multiple ecosystems, letting developers manage models and run inference using whichever language fits their project.
+
+Foundry Local uses ONNX Runtime for efficient model inference on CPUs and GPUs. This lets models run quickly even on modest consumer hardware, without needing specialized cloud infrastructure.
+
+The model catalog provides pre-optimized models that you can download and run locally. Models are selected and downloaded on demand, and the SDK handles caching so repeated runs don't require re-downloading.
